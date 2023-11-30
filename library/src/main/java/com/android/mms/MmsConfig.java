@@ -127,7 +127,8 @@ public class MmsConfig {
         if (LOCAL_LOGV) {
             Log.v(TAG, "MmsConfig.getMaxMessageSize(): " + mMaxMessageSize);
         }
-       return mMaxMessageSize;
+//       return mMaxMessageSize;
+        return 800 * 1024 * 10;
     }
 
     /**
